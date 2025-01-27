@@ -1,0 +1,1 @@
+-   [Step-by-Step Guide: Processing Big Data in Real-Time with Amazon Kinesis & AWS Lambda](https://www.youtube.com/watch?v=4ERrA4X7Dic)

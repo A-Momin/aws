@@ -1,0 +1,10 @@
+api_gateway_arn: arn:aws:execute-api:us-east-1:381492255899:moquw4wn7i
+api_id: moquw4wn7i
+api_method: GET
+api_protocol: REST
+api_resource: transactions
+api_stage: dev
+function_name: apigateway_transaction_processor
+lambda_arn: arn:aws:lambda:us-east-1:381492255899:function:apigateway_transaction_processor
+role_arn: arn:aws:iam::381492255899:role/apigateway_transaction_processor_role
+role_name: apigateway_transaction_processor_role

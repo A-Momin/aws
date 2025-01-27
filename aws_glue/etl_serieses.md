@@ -1,0 +1,1 @@
+-   [Building a Batch Data Pipeline using Airflow, Spark, EMR & Snowflake](https://www.youtube.com/watch?v=hK4kPvJawv8)

@@ -1,0 +1,2 @@
+-   [AWS Essentials: Project Omega!](https://www.youtube.com/watch?v=CGFrYNDpzUM&list=PLv2a_5pNAko0Mijc6mnv04xeOut443Wnk)
+-   [Notes](https://lucid.app/lucidchart/4a14d834-acd0-4b9f-8f0b-85b69d01b6ab/view?page=eNbqbEM6f5NI#)

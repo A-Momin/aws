@@ -1,0 +1,45 @@
+service: KP1
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  stage: dev
+  region: us-east-1
+
+plugins:
+  - serverless-iam-roles-per-function
+
+functions:
+  KP1Consumer:
+    handler: functions/consumer.handler
+    iamRoleStatements:
+      - Effect: "Allow"
+        Action:
+          - kinesis:DescribeStream
+          - kinesis:DescribeStreamSummary
+          - kinesis:GetRecords
+          - kinesis:GetShardIterator
+          - kinesis:ListShards
+          - kinesis:ListStreams
+          - kinesis:SubscribeToShard
+        Resource: !GetAtt KP1DataStream.Arn
+    events:
+      - stream:
+          type: kinesis
+          arn: !GetAtt KP1DataStream.Arn
+          batchSize: 10
+          batchWindow: 10
+
+resources:
+  Resources:
+    KP1DataStream:
+      Type: AWS::Kinesis::Stream
+      Properties:
+        ShardCount: 1
+        StreamModeDetails:
+          StreamMode: PROVISIONED
+  Outputs:
+    Output:
+      Description: "Kinesis stream name"
+      Value: !Ref KP1DataStream

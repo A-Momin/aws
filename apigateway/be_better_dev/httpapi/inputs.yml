@@ -1,0 +1,7 @@
+function_name: persons_hhtpapi_lambda
+lambda_arn: arn:aws:lambda:us-east-1:381492255899:function:persons_hhtpapi_lambda
+role_name: persons_hhtpapi_role
+role_arn: arn:aws:iam::381492255899:role/persons_hhtpapi_role
+api_id: 3l1cmlz46l
+stage: dev
+api_stage: dev

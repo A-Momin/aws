@@ -1,0 +1,1 @@
+-   [Beginner's Guide to AWS CloudTrail for Security - Full Course](https://www.youtube.com/watch?v=1ZKuwyATV3c)

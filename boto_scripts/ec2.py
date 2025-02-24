@@ -205,8 +205,8 @@ def allow_sg_to_sg(this_security_group_id, source_security_group_id='', ip_proto
             IpPermissions=[
                 {
                     'IpProtocol': ip_protocol if ip_protocol else '-1',  # '-1' means all protocols
-                    # 'FromPort': from_port,
-                    # 'ToPort': to_port,
+                    'FromPort': from_port,
+                    'ToPort': to_port,
                     'UserIdGroupPairs': [
                         {
                             'GroupId': source_security_group_id if source_security_group_id else this_security_group_id,

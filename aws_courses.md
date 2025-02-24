@@ -57,6 +57,8 @@
     -   [BeBetterDev: AWS API Gateway to Lambda Tutorial in Python | Build a HTTP API (2/2)](https://www.youtube.com/watch?v=M91vXdjve7A)
     -   [BeBetterDev: HTTP APIs Walkthrough](https://www.youtube.com/playlist?list=PL9nWRykSBSFivg7AyK8XjGa6I7wGEibqG)
     -   [BeBetterDev: Secure your API Gateway with Lambda Authorizer | Step by Step AWS Tutorial](https://www.youtube.com/watch?v=al5I9v5Y-kA)
+    -   [Secure your API Gateway with Amazon Cognito User Pools | Step by Step AWS Tutorial](https://www.youtube.com/watch?v=oFSU6rhFETk&t=11s)
+    -   [Tutorial: How to add security to a REST API using JWT Authorizers and Amazon Cognito | JWT Token](https://www.youtube.com/watch?v=5kTO8Uso6hI)
     -   [BeBetterDev: Integrate your REST API with AWS Services using API Gateway Service Proxy](https://www.youtube.com/watch?v=i5NEHwFeeuY&t=366s)
     -   [BeBetterDev: AWS API Gateway Websocket Tutorial With Lambda | COMPLETELY SERVERLESS!](https://www.youtube.com/watch?v=FIrzkt7kH80&t=25s)
     -   [BeBetterDev: REST vs HTTP APIs in API Gateway (1/2)](https://www.youtube.com/watch?v=5VikkwAxr-E)
